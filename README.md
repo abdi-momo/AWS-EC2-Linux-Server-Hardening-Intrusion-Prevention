@@ -54,7 +54,8 @@ Figure 4: Allocate a security group or firewall rules that allow SSH (port 22)
 Since we used PuTTY instead of the Linux/Mac terminal, the connection process involved using the. ppk private key file named practicum_key.ppk. First, we opened PuTTY and entered the public IP address of our AWS Ubuntu instance:
  
 Next, under Connection → SSH → Auth, we browsed and selected the practicum_key.ppk file to authenticate. The username ubuntu was specified in the Session settings. After clicking Open, PuTTY established the SSH session, prompting us with a terminal login where we could securely access and manage the server.
- 
+ ![Uploading image.png…]()
+
 Figure 5: Connection to the server via SSH.
 Figure 5 show the connection to the AWS Ubuntu instance via SSH. The terminal prompt appeared as:
  
